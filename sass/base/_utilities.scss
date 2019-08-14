@@ -1,0 +1,35 @@
+// @import "../abstracts/variables"
+
+.u-center-text {
+    text-align: center !important;
+}
+
+.u-margin-bottom-big {
+    margin-bottom: 8rem !important;
+
+    @include respond(tab-port) {
+        margin-bottom: 5rem !important;
+    }
+}
+
+.u-margin-bottom-medium {
+    margin-bottom: 4rem !important;
+
+    @include respond(tab-port) {
+        margin-bottom: 3rem !important;
+    }
+}
+
+.u-margin-bottom-small {
+    margin-bottom: 1.5rem !important;
+}
+.button-margin-top-small {
+    margin-top: 2rem !important;
+}
+
+.button-margin-top-large {
+    margin-top: 6rem !important;
+}
+.button-margin-top-none {
+    margin-top: 0 !important;
+}
